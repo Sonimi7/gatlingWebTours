@@ -1,0 +1,367 @@
+2025.07.08 20:02:44 INFO  Started: Metals version 1.6.0 in folders '/Users/user/gatling-sbt-plugin-demo' for client Visual Studio Code 1.101.2.
+2025.07.08 20:02:55 INFO  running '/Users/user/.sdkman/candidates/sbt/current/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.07.08 20:02:55 WARN  no build target for: /Users/user/gatling-sbt-plugin-demo/project/metals.sbt
+2025.07.08 20:02:55 INFO  no build target found for /Users/user/gatling-sbt-plugin-demo/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.08 20:02:55 WARN  no build target for: /Users/user/gatling-sbt-plugin-demo/project/project/metals.sbt
+2025.07.08 20:03:03 INFO  [info] welcome to sbt 1.10.11 (Oracle Corporation Java 17.0.12)
+2025.07.08 20:03:04 INFO  [info] loading settings for project gatling-sbt-plugin-demo-build-build-build from metals.sbt...
+2025.07.08 20:03:05 INFO  [info] loading project definition from /Users/user/gatling-sbt-plugin-demo/project/project/project
+2025.07.08 20:03:10 INFO  [info] loading settings for project gatling-sbt-plugin-demo-build-build from metals.sbt...
+2025.07.08 20:03:10 INFO  [info] loading project definition from /Users/user/gatling-sbt-plugin-demo/project/project
+2025.07.08 20:03:17 INFO  [success] Generated .bloop/gatling-sbt-plugin-demo-build-build.json
+2025.07.08 20:03:17 INFO  [success] Total time: 7 s, completed 8 июл. 2025 г., 20:03:17
+2025.07.08 20:03:17 INFO  [info] loading settings for project gatling-sbt-plugin-demo-build from metals.sbt, plugins.sbt...
+2025.07.08 20:03:17 INFO  [info] loading project definition from /Users/user/gatling-sbt-plugin-demo/project
+2025.07.08 20:03:20 INFO  [success] Generated .bloop/gatling-sbt-plugin-demo-build.json
+2025.07.08 20:03:20 INFO  no build target found for /Users/user/gatling-sbt-plugin-demo/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.08 20:03:20 INFO  [success] Total time: 2 s, completed 8 июл. 2025 г., 20:03:20
+2025.07.08 20:03:21 INFO  [info] loading settings for project gatling-sbt-plugin-demo from build.sbt...
+2025.07.08 20:03:21 INFO  [info] set current project to gatling-sbt-plugin-demo (in build file:/Users/user/gatling-sbt-plugin-demo/)
+2025.07.08 20:03:50 INFO  [success] Generated .bloop/gatling-sbt-plugin-demo.json
+2025.07.08 20:03:50 INFO  [success] Generated .bloop/gatling-sbt-plugin-demo-it.json
+2025.07.08 20:03:50 INFO  [success] Generated .bloop/gatling-sbt-plugin-demo-test.json
+2025.07.08 20:03:50 INFO  [success] Total time: 29 s, completed 8 июл. 2025 г., 20:03:50
+2025.07.08 20:03:50 INFO  time: ran 'sbt bloopInstall' in 54s
+2025.07.08 20:03:50 INFO  Attempting to connect to the build server...
+2025.07.08 20:03:50 INFO  No running Bloop server found, starting one.
+2025.07.08 20:04:06 INFO  Starting compilation server
+2025.07.08 20:04:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.08 20:04:13 INFO  Attempting to connect to the build server...
+2025.07.08 20:04:13 INFO  Found a Bloop server running
+2025.07.08 20:04:13 INFO  Attempting to connect to the build server...
+2025.07.08 20:04:13 INFO  Found a Bloop server running
+2025.07.08 20:04:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/project/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.08 20:04:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.08 20:04:33 ERROR Timeout waiting for 'build/initialize' response
+2025.07.08 20:04:33 WARN  Retrying connection to the build server Bloop
+2025.07.08 20:04:33 INFO  Found a Bloop server running
+2025.07.08 20:04:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.08 20:04:33 INFO  time: Connected to build server in 42s
+2025.07.08 20:04:33 INFO  Connected to Build server: Bloop v2.0.10
+2025.07.08 20:04:33 INFO  time: Imported build in 0.18s
+2025.07.08 20:04:53 INFO  time: indexed workspace in 20s
+2025.07.08 20:11:21 INFO  compiling gatling-sbt-plugin-demo-test (2 scala sources)
+2025.07.08 20:11:25 INFO  time: compiled gatling-sbt-plugin-demo-test in 3.54s
+2025.07.08 20:14:20 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.08 20:14:22 INFO  time: compiled gatling-sbt-plugin-demo-test in 1.23s
+2025.07.08 20:16:18 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.08 20:16:18 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.59s
+2025.07.08 20:18:06 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.08 20:18:06 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.44s
+2025.07.08 20:21:56 INFO  compiling gatling-sbt-plugin-demo-test (2 scala sources)
+2025.07.08 20:21:56 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.17s
+2025.07.08 20:21:56 INFO  compiling gatling-sbt-plugin-demo-test (2 scala sources)
+2025.07.08 20:21:56 INFO  time: compiled gatling-sbt-plugin-demo-test in 46ms
+2025.07.08 20:26:34 INFO  compiling gatling-sbt-plugin-demo-test (2 scala sources)
+2025.07.08 20:26:35 INFO  time: compiled gatling-sbt-plugin-demo-test in 1.27s
+июл. 08, 2025 8:27:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 116
+июл. 08, 2025 8:27:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+2025.07.08 20:33:28 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.08 20:33:28 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.49s
+2025.07.08 20:38:23 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.08 20:38:23 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.55s
+2025.07.08 20:45:30 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.08 20:45:30 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.6s
+2025.07.14 21:09:34 INFO  compiling gatling-sbt-plugin-demo-test (2 scala sources)
+2025.07.14 21:09:34 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.55s
+2025.07.14 21:11:27 INFO  compiling gatling-sbt-plugin-demo-test (5 scala sources)
+2025.07.14 21:11:27 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.51s
+2025.07.14 21:11:42 INFO  compiling gatling-sbt-plugin-demo-test (5 scala sources)
+2025.07.14 21:11:42 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.5s
+июл. 17, 2025 8:21:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+июл. 17, 2025 8:51:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.07.18 09:41:49 INFO  Shutting down server
+2025.07.18 09:41:49 INFO  shutting down Metals
+2025.07.18 09:41:49 INFO  Shut down connection with build server.
+2025.07.18 09:41:49 INFO  Shut down connection with build server.
+2025.07.18 09:41:49 INFO  Shut down connection with build server.
+2025.07.18 09:41:49 INFO  Exiting server
+2025.07.22 20:24:02 INFO  Started: Metals version 1.6.0 in folders '/Users/user/gatling-sbt-plugin-demo' for client Visual Studio Code 1.102.0.
+2025.07.22 20:24:02 INFO  no build target found for /Users/user/gatling-sbt-plugin-demo/src/test/scala/otus2025/Debug.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.22 20:24:03 INFO  Attempting to connect to the build server...
+2025.07.22 20:24:03 INFO  No running Bloop server found, starting one.
+2025.07.22 20:24:04 INFO  no build target found for /Users/user/gatling-sbt-plugin-demo/src/test/scala/otus2025/Debug.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.22 20:24:05 INFO  Starting compilation server
+2025.07.22 20:24:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.22 20:24:12 INFO  Attempting to connect to the build server...
+2025.07.22 20:24:12 INFO  Found a Bloop server running
+2025.07.22 20:24:12 INFO  Attempting to connect to the build server...
+2025.07.22 20:24:12 INFO  Found a Bloop server running
+2025.07.22 20:24:12 INFO  no build target found for /Users/user/gatling-sbt-plugin-demo/src/test/scala/otus2025/Debug.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.22 20:24:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/project/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.22 20:24:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.22 20:24:12 INFO  time: Connected to build server in 8.73s
+2025.07.22 20:24:12 INFO  Connected to Build server: Bloop v2.0.10
+2025.07.22 20:24:12 INFO  time: Imported build in 0.25s
+2025.07.22 20:24:14 INFO  time: indexed workspace in 2.33s
+2025.07.22 20:24:15 INFO  compiling gatling-sbt-plugin-demo-test (5 scala sources)
+2025.07.22 20:24:18 INFO  time: compiled gatling-sbt-plugin-demo-test in 2.67s
+2025.07.22 20:24:24 INFO  Shutting down server
+2025.07.22 20:24:24 INFO  shutting down Metals
+2025.07.22 20:24:24 INFO  Shut down connection with build server.
+2025.07.22 20:24:24 INFO  Shut down connection with build server.
+2025.07.22 20:24:24 INFO  Shut down connection with build server.
+2025.07.22 20:24:24 INFO  Exiting server
+2025.07.23 22:06:15 INFO  Started: Metals version 1.6.0 in folders '/Users/user/gatling-sbt-plugin-demo' for client Visual Studio Code 1.102.0.
+2025.07.23 22:06:16 INFO  no build target found for /Users/user/gatling-sbt-plugin-demo/src/test/scala/otus2025/Debug.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.23 22:06:16 INFO  Attempting to connect to the build server...
+2025.07.23 22:06:16 INFO  Found a Bloop server running
+2025.07.23 22:06:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.23 22:06:21 INFO  Attempting to connect to the build server...
+2025.07.23 22:06:21 INFO  Found a Bloop server running
+2025.07.23 22:06:21 INFO  Attempting to connect to the build server...
+2025.07.23 22:06:21 INFO  Found a Bloop server running
+2025.07.23 22:06:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/project/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.23 22:06:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.23 22:06:21 INFO  time: Connected to build server in 5.31s
+2025.07.23 22:06:21 INFO  Connected to Build server: Bloop v2.0.10
+2025.07.23 22:06:25 INFO  time: indexed workspace in 3.38s
+2025.07.23 22:10:06 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.23 22:10:06 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.53s
+2025.07.23 22:10:57 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.23 22:10:57 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.42s
+2025.07.23 22:15:25 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.23 22:15:25 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.4s
+2025.07.23 22:17:49 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.23 22:17:49 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.42s
+2025.07.23 22:19:22 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.23 22:19:22 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.37s
+2025.07.23 22:21:41 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.23 22:21:41 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.53s
+2025.07.23 22:21:47 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.23 22:21:47 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.14s
+2025.07.23 22:21:50 INFO  compiling gatling-sbt-plugin-demo-test (2 scala sources)
+2025.07.23 22:21:50 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.11s
+2025.07.23 22:21:57 INFO  compiling gatling-sbt-plugin-demo-test (3 scala sources)
+2025.07.23 22:21:57 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.17s
+июл. 23, 2025 10:24:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+июл. 23, 2025 10:24:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+июл. 23, 2025 10:24:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+июл. 23, 2025 10:24:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+июл. 23, 2025 10:30:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.07.23 22:34:06 INFO  Created report: Optional[file:///Users/user/gatling-sbt-plugin-demo/src/test/scala/webTours/WebToursDebug.scala]
+2025.07.23 22:34:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/user/gatling-sbt-plugin-demo/.metals/.reports/metals-full/2025-07-23/r_empty-definition_(gatling-sbt-plugin-demo-test)_22-34-06-354.md")
+июл. 23, 2025 10:37:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://01df305b-e5f1-48bc-b6c2-765c032e0a9b/response_06af9431-0399-43fb-8127-75daccdcf93c/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FWebToursDebug.scala%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FWebToursDebug.scala%22%2C%22path%22%3A%22%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FWebToursDebug.scala%22%2C%22scheme%22%3A%22file%22%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+июл. 23, 2025 10:37:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1635
+июл. 23, 2025 10:39:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://01df305b-e5f1-48bc-b6c2-765c032e0a9b/response_dde74bf3-5cb1-489f-83ee-cb320666a73c/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FActionsWebTours.scala%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FActionsWebTours.scala%22%2C%22path%22%3A%22%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FActionsWebTours.scala%22%2C%22scheme%22%3A%22file%22%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+июл. 23, 2025 10:40:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://01df305b-e5f1-48bc-b6c2-765c032e0a9b/response_974a3d06-ad15-4639-be9f-082a68377def/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FCommonScenarioWebTours.scala%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FCommonScenarioWebTours.scala%22%2C%22path%22%3A%22%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FCommonScenarioWebTours.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A19%2C%22endColumn%22%3A1%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2025.07.23 22:49:16 INFO  compiling gatling-sbt-plugin-demo-test (4 scala sources)
+2025.07.23 22:49:16 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.2s
+2025.07.23 22:49:45 INFO  compiling gatling-sbt-plugin-demo-test (4 scala sources)
+2025.07.23 22:49:45 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.22s
+2025.07.23 22:49:50 INFO  compiling gatling-sbt-plugin-demo-test (4 scala sources)
+2025.07.23 22:49:50 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.21s
+2025.07.23 22:53:02 INFO  compiling gatling-sbt-plugin-demo-test (4 scala sources)
+2025.07.23 22:53:02 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.71s
+2025.07.23 23:08:48 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.23 23:08:48 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.12s
+2025.07.23 23:08:49 WARN  Could not load snapshot text for /Users/user/gatling-sbt-plugin-demo/src/test/scala/webTours/CommonScenarioWebTours.scala
+2025.07.23 23:08:53 WARN  Could not load snapshot text for /Users/user/gatling-sbt-plugin-demo/src/test/scala/webTours/CommonScenarioWebTours.scala
+2025.07.23 23:09:00 WARN  Could not load snapshot text for /Users/user/gatling-sbt-plugin-demo/src/test/scala/webTours/CommonScenarioWebTours.scala
+2025.07.23 23:09:02 WARN  Could not load snapshot text for /Users/user/gatling-sbt-plugin-demo/src/test/scala/webTours/CommonScenarioWebTours.scala
+июл. 23, 2025 11:09:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3215
+2025.07.23 23:09:05 WARN  Could not load snapshot text for /Users/user/gatling-sbt-plugin-demo/src/test/scala/webTours/CommonScenarioWebTours.scala
+2025.07.23 23:09:05 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.23 23:09:05 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.45s
+2025.07.23 23:10:19 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.23 23:10:19 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.15s
+2025.07.23 23:10:22 INFO  compiling gatling-sbt-plugin-demo-test (2 scala sources)
+2025.07.23 23:10:22 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.65s
+2025.07.23 23:10:24 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
+2025.07.23 23:10:24 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.38s
+2025.07.23 23:16:05 INFO  Disconnecting from Bloop session...
+2025.07.23 23:16:05 INFO  Shut down connection with build server.
+2025.07.23 23:16:05 INFO  Shut down connection with build server.
+2025.07.23 23:16:05 INFO  Shut down connection with build server.
+2025.07.23 23:16:06 INFO  Attempting to connect to the build server...
+2025.07.23 23:16:06 INFO  No running Bloop server found, starting one.
+2025.07.23 23:16:05 INFO  Starting compilation server
+2025.07.23 23:16:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.23 23:16:12 INFO  Attempting to connect to the build server...
+2025.07.23 23:16:12 INFO  Found a Bloop server running
+2025.07.23 23:16:12 INFO  Attempting to connect to the build server...
+2025.07.23 23:16:12 INFO  Found a Bloop server running
+2025.07.23 23:16:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/project/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.23 23:16:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.07.23 23:16:12 INFO  time: Connected to build server in 6.59s
+2025.07.23 23:16:12 INFO  Connected to Build server: Bloop v2.0.10
+2025.07.23 23:16:14 INFO  time: indexed workspace in 1.38s
+июл. 23, 2025 11:45:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3462
+июл. 23, 2025 11:47:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://01df305b-e5f1-48bc-b6c2-765c032e0a9b/response_4f3328f3-3d1c-4068-ba90-02da4512bc55/1#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FActionsWebTours.scala%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FActionsWebTours.scala%22%2C%22path%22%3A%22%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FActionsWebTours.scala%22%2C%22scheme%22%3A%22file%22%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2025.07.23 23:47:54 INFO  Created report: Optional[file:///Users/user/gatling-sbt-plugin-demo/src/test/scala/webTours/ActionsWebTours.scala]
+2025.07.23 23:47:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/user/gatling-sbt-plugin-demo/.metals/.reports/metals-full/2025-07-23/r_empty-definition_(gatling-sbt-plugin-demo-test)_23-47-54-154.md")
+июл. 23, 2025 11:47:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://01df305b-e5f1-48bc-b6c2-765c032e0a9b/response_4f3328f3-3d1c-4068-ba90-02da4512bc55/1#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FActionsWebTours.scala%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FActionsWebTours.scala%22%2C%22path%22%3A%22%2FUsers%2Fuser%2Fgatling-sbt-plugin-demo%2Fsrc%2Ftest%2Fscala%2FwebTours%2FActionsWebTours.scala%22%2C%22scheme%22%3A%22file%22%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+июл. 24, 2025 1:16:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4495
