@@ -1060,3 +1060,31 @@ WARNING: offset 517, count -1, length 4277
 2025.07.24 23:35:27 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.38s
 2025.07.24 23:36:19 INFO  compiling gatling-sbt-plugin-demo-test (1 scala source)
 2025.07.24 23:36:19 INFO  time: compiled gatling-sbt-plugin-demo-test in 0.95s
+2025.07.26 14:07:57 INFO  Shutting down server
+2025.07.26 14:07:57 INFO  shutting down Metals
+2025.07.26 14:07:57 INFO  Shut down connection with build server.
+2025.07.26 14:07:57 INFO  Shut down connection with build server.
+2025.07.26 14:07:57 INFO  Shut down connection with build server.
+2025.07.26 14:07:57 INFO  Exiting server
+2025.08.11 09:20:05 INFO  Started: Metals version 1.6.0 in folders '/Users/user/gatling-sbt-plugin-demo' for client Visual Studio Code 1.102.1.
+2025.08.11 09:20:10 INFO  no build target found for /Users/user/gatling-sbt-plugin-demo/src/test/scala/webTours/ActionsWebTours.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.11 09:20:10 INFO  Attempting to connect to the build server...
+2025.08.11 09:20:10 INFO  No running Bloop server found, starting one.
+2025.08.11 09:20:12 INFO  Starting compilation server
+2025.08.11 09:20:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.11 09:20:19 INFO  Attempting to connect to the build server...
+2025.08.11 09:20:19 INFO  Found a Bloop server running
+2025.08.11 09:20:19 INFO  Attempting to connect to the build server...
+2025.08.11 09:20:19 INFO  Found a Bloop server running
+2025.08.11 09:20:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/project/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.11 09:20:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/gatling-sbt-plugin-demo/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.11 09:20:20 INFO  time: Connected to build server in 9.78s
+2025.08.11 09:20:20 INFO  Connected to Build server: Bloop v2.0.10
+2025.08.11 09:20:20 INFO  time: Imported build in 0.34s
+2025.08.11 09:20:24 INFO  time: indexed workspace in 3.83s
+2025.08.12 03:58:04 INFO  Shutting down server
+2025.08.12 03:58:04 INFO  shutting down Metals
+2025.08.12 03:58:04 INFO  Shut down connection with build server.
+2025.08.12 03:58:04 INFO  Shut down connection with build server.
+2025.08.12 03:58:04 INFO  Shut down connection with build server.
+2025.08.12 03:58:04 INFO  Exiting server

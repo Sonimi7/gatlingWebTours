@@ -27,7 +27,6 @@ val getUserSession: ChainBuilder = exec(
   session
 }
 
-
 // логин
   val login: ChainBuilder = exec(
     http("login")
