@@ -13,14 +13,17 @@ object WebToursSimulation {
   
 }
 
+/**
+ * Основная симуляция для тестирования WebTours
+ * Используется для отладки и базового тестирования
+ */
 class WebToursSimulation extends Simulation {
   setUp(
     CommonScenarioWebTours()
       .inject(
-        incrementUsersPerSec(10)
-          .times(10)
-          .eachLevelLasting(2 minutes)
-          .startingFrom(0)
+        // Базовый тест с небольшим количеством пользователей
+        rampUsersPerSec(0).to(5).during(30 seconds),
+        constantUsersPerSec(5).during(2 minutes)
       )
   ).protocols(WebToursSimulation.httpProtocol)
 }

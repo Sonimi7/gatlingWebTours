@@ -31,7 +31,8 @@ val getUserSession: ChainBuilder = exec(
   val login: ChainBuilder = exec(
     http("login")
       .post("/cgi-bin/login.pl")
-      .formParam("username", "sofi")
+      .formParam("username", "${username}")
+      .formParam("userSession", "${userSessionVar}")
       .formParam("login.x", "65")
       .formParam("login.y", "6")
       .formParam("JSFormSubmit", "off")
@@ -43,6 +44,7 @@ val getUserSession: ChainBuilder = exec(
       .get("/cgi-bin/nav.pl")
       .queryParam("page", "menu")
       .queryParam("in", "flights")
+      .queryParam("userSession", "${userSessionVar}")
   )
 
 // переход на страницу с формой выбора рейсов
@@ -50,6 +52,7 @@ val getUserSession: ChainBuilder = exec(
   http("getFlightForm")
     .get("/cgi-bin/reservations.pl")
     .queryParam("page", "welcome")
+    .queryParam("userSession", "${userSessionVar}")
     .check(
       regex("""<option.*?value="([^"]+)".*?>""").findAll.saveAs("cities")
     )
@@ -61,8 +64,11 @@ val chooseCities: ChainBuilder = exec { session =>
   val rnd = new scala.util.Random
   val depart = cities(rnd.nextInt(cities.length))
   var arrive = depart
-  while (arrive == depart && cities.length > 1) {
-    arrive = cities(rnd.nextInt(cities.length))
+  // Если только один город, используем его для отправления и прибытия
+  if (cities.length > 1) {
+    while (arrive == depart) {
+      arrive = cities(rnd.nextInt(cities.length))
+    }
   }
   println(s"Выбранный город отправления: $depart")
   println(s"Выбранный город прибытия: $arrive")
@@ -75,6 +81,7 @@ val chooseCities: ChainBuilder = exec { session =>
 val findFlights: ChainBuilder = exec(
   http("findFlights")
     .post("/cgi-bin/reservations.pl")
+    .formParam("userSession", "${userSessionVar}")
     .formParam("depart", "${departCity}")
     .formParam("arrive", "${arriveCity}")
     .formParam("advanceDiscount", "0")
@@ -105,6 +112,7 @@ val findFlights: ChainBuilder = exec(
 val flightsDetails: ChainBuilder = exec(
   http("flightsDetails")
     .post("/cgi-bin/reservations.pl")
+    .formParam("userSession", "${userSessionVar}")
     .formParam("outboundFlight", "${chosenFlight}")
     .formParam("numPassengers", "1")
     .formParam("advanceDiscount", "0")
@@ -118,6 +126,7 @@ val flightsDetails: ChainBuilder = exec(
 val paymentDetails: ChainBuilder = exec(
   http("paymentDetails")
     .post("/cgi-bin/reservations.pl")
+    .formParam("userSession", "${userSessionVar}")
     .formParam("firstName", "${firstName}")
     .formParam("lastName", "${lastName}")
     .formParam("address1", "${address1}")
